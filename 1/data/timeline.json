@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az28-812",
+    "children" : [ {
+      "name" : "3180@fv-az28-812.ForkJoinPool-1-worker-3(16)",
+      "children" : [ {
+        "name" : "testValidURL()",
+        "uid" : "91ce7374e69812a8",
+        "parentUid" : "42e0b1bd097b5435d8f8f12787a88d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627572810953,
+          "stop" : 1627572812426,
+          "duration" : 1473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testRegistration()",
+        "uid" : "ac57131f0919970",
+        "parentUid" : "42e0b1bd097b5435d8f8f12787a88d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627572812512,
+          "stop" : 1627572815433,
+          "duration" : 2921
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42e0b1bd097b5435d8f8f12787a88d64"
+    } ],
+    "uid" : "512c4256ce3f7ed766c19b4e3f052a24"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "APITest",
+    "children" : [ {
+      "name" : "testValidURL()",
+      "uid" : "91ce7374e69812a8",
+      "parentUid" : "81b0eef85bdbd6b524341f467d96d3ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627572810953,
+        "stop" : 1627572812426,
+        "duration" : 1473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "81b0eef85bdbd6b524341f467d96d3ae"
+  }, {
+    "name" : "ParabankTests",
+    "children" : [ {
+      "name" : "testRegistration()",
+      "uid" : "ac57131f0919970",
+      "parentUid" : "3c18d85390f294806af699a5db4e5c95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627572812512,
+        "stop" : 1627572815433,
+        "duration" : 2921
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c18d85390f294806af699a5db4e5c95"
+  } ],
+  "name" : "suites"
+}

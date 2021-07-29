@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://AndreasFulop.github.io/practiceForWorkflow",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #1079161692",
+  "buildUrl" : "https://github.com/AndreasFulop/practiceForWorkflow/actions/runs/1079161692",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://AndreasFulop.github.io/practiceForWorkflow/1/"
+} ]
