@@ -1,0 +1,14 @@
+username:ubulka
+password:Codecool123
+
+First Name:John
+Last Name:Smith	
+Address:Sesame str. 1001
+City:Phoenix
+State:Arizona
+Zip Code:85001	
+Phone:555-1234
+SSN:123-00-1234
+Username:Pacahontos
+Password:Codecool123
+Confirm:Codecool123
