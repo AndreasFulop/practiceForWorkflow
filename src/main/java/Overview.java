@@ -15,5 +15,7 @@ public class Overview {
     public static final By ACCOUNT_FIRST_NUMBER = By.xpath("//*[@id=\"accountTable\"]/tbody/tr[1]/td[1]/a");
     public static final By ACCOUNT_SECOND_NUMBER = By.xpath("//*[@id=\"accountTable\"]/tbody/tr[2]/td[1]/a");
 
+    public static final By TABLE_COL_NAMES = By.xpath("/html/body/div[1]/div[3]/div[2]/div/div/table/thead/tr");
+
 }
 

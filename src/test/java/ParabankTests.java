@@ -3,6 +3,8 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
+import static org.apache.commons.lang3.StringUtils.split;
+
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ParabankTests {
@@ -120,6 +122,18 @@ public class ParabankTests {
             Util.clickOnPage((TransferFunds.ACCOUNT_TO_SELECT2));
             Util.waitForMsec(2000);
             logout();
+        }
+
+        @Test
+        @Order(8)
+        @DisplayName("Try to write out the tablecols names")
+        public void testTableNames() {
+            login();
+            Util.clickOnPage(Overview.ACCOUNTS_OVERVIEW_MENU);
+            String colNames = Util.getTextFromPage(Overview.TABLE_COL_NAMES);
+            String[] cols = split(colNames);
+            for (String i:cols) {
+            System.out.println(i);}
 
         }
 
