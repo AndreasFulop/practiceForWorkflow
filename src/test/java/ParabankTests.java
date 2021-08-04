@@ -18,20 +18,23 @@ import static org.apache.commons.lang3.StringUtils.split;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ParabankTests {
     private  static WebDriver driver;
+    
+ @BeforeAll
+    public static void Init() {
+        WebDriverManager.chromedriver().setup();
+    }
 
-    public static WebDriver getDriver() {
-        if (driver == null) {
-            WebDriverManager.chromedriver().setup();
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--no-sandbox");
-            options.addArguments("--headless");
-            options.addArguments("incognito");
-            options.addArguments("--disable-gpu","--ignore-certificate-errors","--disable-extensions","--disable-dev-shm-usage");
-            driver = new ChromeDriver(options);
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            driver.manage().window().maximize();
-        }
-        return driver;
+    @BeforeEach
+    public void setDriver() {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
+        options.addArguments("incognito");
+        options.addArguments("--disable-gpu", "--ignore-certificate-errors", "--disable-extensions", "--disable-dev-shm-usage");
+        driver = new ChromeDriver(options);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        driver.get("https://getbootstrap.com/docs/5.0/content/tables/");
     }
 
     public static String fileReader(String fieldName) {
