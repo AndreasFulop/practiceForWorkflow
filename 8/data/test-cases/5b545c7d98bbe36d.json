@@ -1,0 +1,87 @@
+{
+  "uid" : "5b545c7d98bbe36d",
+  "name" : "Main page is valid",
+  "fullName" : "ParabankTests.testMainPageSubtitle",
+  "historyId" : "ffa98aef666ef59c61a42733ba2fff6e",
+  "time" : {
+    "start" : 1628089590204,
+    "stop" : 1628089591977,
+    "duration" : 1773
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driverInit",
+    "time" : {
+      "start" : 1628089590218,
+      "stop" : 1628089591923,
+      "duration" : 1705
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "collapseAll",
+    "time" : {
+      "start" : 1628089663278,
+      "stop" : 1628089663347,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-440"
+  }, {
+    "name" : "thread",
+    "value" : "3253@fv-az77-440.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ParabankTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ParabankTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMainPageSubtitle"
+  }, {
+    "name" : "suite",
+    "value" : "ParabankTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b545c7d98bbe36d.json",
+  "parameterValues" : [ ]
+}

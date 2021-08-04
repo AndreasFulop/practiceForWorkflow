@@ -1,0 +1,71 @@
+[ {
+  "uid" : "9ed3dc33405056ca",
+  "name" : "Register page is valid",
+  "time" : {
+    "start" : 1628089592043,
+    "stop" : 1628089592484,
+    "duration" : 441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "334d771587a8b0c",
+  "name" : "After registrating you can log in",
+  "time" : {
+    "start" : 1628089593025,
+    "stop" : 1628089596143,
+    "duration" : 3118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3e03c72dc06efa6",
+  "name" : "About Us page is valid",
+  "time" : {
+    "start" : 1628089592488,
+    "stop" : 1628089593021,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50393d9bdef558f9",
+  "name" : "The new account's starting balance",
+  "time" : {
+    "start" : 1628089596146,
+    "stop" : 1628089620788,
+    "duration" : 24642
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "de07f109be35f55b",
+  "name" : "Try to write out the tablecols names",
+  "time" : {
+    "start" : 1628089643033,
+    "stop" : 1628089663267,
+    "duration" : 20234
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5b545c7d98bbe36d",
+  "name" : "Main page is valid",
+  "time" : {
+    "start" : 1628089590204,
+    "stop" : 1628089591977,
+    "duration" : 1773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82600239820cd6bf",
+  "name" : "Make a new account and find it's number",
+  "time" : {
+    "start" : 1628089620810,
+    "stop" : 1628089643029,
+    "duration" : 22219
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

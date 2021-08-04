@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 04 15:06:32 GMT 2021","Wed Aug 04 15:06:33 GMT 2021","533","","ParabankTests","","ParabankTests","testAboutUs","About Us page is valid",""
+"broken","Wed Aug 04 15:06:36 GMT 2021","Wed Aug 04 15:07:00 GMT 2021","24642","","ParabankTests","","ParabankTests","testBalance","The new account's starting balance",""
+"passed","Wed Aug 04 15:06:32 GMT 2021","Wed Aug 04 15:06:32 GMT 2021","441","","ParabankTests","","ParabankTests","testRegister","Register page is valid",""
+"passed","Wed Aug 04 15:06:33 GMT 2021","Wed Aug 04 15:06:36 GMT 2021","3118","","ParabankTests","","ParabankTests","testLogin","After registrating you can log in",""
+"broken","Wed Aug 04 15:07:23 GMT 2021","Wed Aug 04 15:07:43 GMT 2021","20234","","ParabankTests","","ParabankTests","testTableNames","Try to write out the tablecols names",""
+"broken","Wed Aug 04 15:07:00 GMT 2021","Wed Aug 04 15:07:23 GMT 2021","22219","","ParabankTests","","ParabankTests","testNewAccount","Make a new account and find it's number",""
+"passed","Wed Aug 04 15:06:30 GMT 2021","Wed Aug 04 15:06:31 GMT 2021","1773","","ParabankTests","","ParabankTests","testMainPageSubtitle","Main page is valid",""

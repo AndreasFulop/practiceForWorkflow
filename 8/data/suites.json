@@ -1,0 +1,100 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "ParabankTests",
+    "children" : [ {
+      "name" : "Main page is valid",
+      "uid" : "5b545c7d98bbe36d",
+      "parentUid" : "3c18d85390f294806af699a5db4e5c95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628089590204,
+        "stop" : 1628089591977,
+        "duration" : 1773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Register page is valid",
+      "uid" : "9ed3dc33405056ca",
+      "parentUid" : "3c18d85390f294806af699a5db4e5c95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628089592043,
+        "stop" : 1628089592484,
+        "duration" : 441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "About Us page is valid",
+      "uid" : "f3e03c72dc06efa6",
+      "parentUid" : "3c18d85390f294806af699a5db4e5c95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628089592488,
+        "stop" : 1628089593021,
+        "duration" : 533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "After registrating you can log in",
+      "uid" : "334d771587a8b0c",
+      "parentUid" : "3c18d85390f294806af699a5db4e5c95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628089593025,
+        "stop" : 1628089596143,
+        "duration" : 3118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "The new account's starting balance",
+      "uid" : "50393d9bdef558f9",
+      "parentUid" : "3c18d85390f294806af699a5db4e5c95",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628089596146,
+        "stop" : 1628089620788,
+        "duration" : 24642
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Make a new account and find it's number",
+      "uid" : "82600239820cd6bf",
+      "parentUid" : "3c18d85390f294806af699a5db4e5c95",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628089620810,
+        "stop" : 1628089643029,
+        "duration" : 22219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Try to write out the tablecols names",
+      "uid" : "de07f109be35f55b",
+      "parentUid" : "3c18d85390f294806af699a5db4e5c95",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628089643033,
+        "stop" : 1628089663267,
+        "duration" : 20234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c18d85390f294806af699a5db4e5c95"
+  } ],
+  "name" : "suites"
+}

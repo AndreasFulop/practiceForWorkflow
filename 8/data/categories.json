@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"accountTable\"]/tbody/tr[13]/td[2]/b\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-440', ip: '10.1.0.27', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.VXF35H}, goog:chromeOptions: {debuggerAddress: localhost:34139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b9e714e6513577512ae06214753f48d1\n*** Element info: {Using=xpath, value=//*[@id=\"accountTable\"]/tbody/tr[13]/td[2]/b}",
+      "children" : [ {
+        "name" : "The new account's starting balance",
+        "uid" : "50393d9bdef558f9",
+        "parentUid" : "41c1182b81d47766ef4f49be23355249",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628089596146,
+          "stop" : 1628089620788,
+          "duration" : 24642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41c1182b81d47766ef4f49be23355249"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"loginPanel\"]/form/div[1]/input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-440', ip: '10.1.0.27', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.VXF35H}, goog:chromeOptions: {debuggerAddress: localhost:34139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b9e714e6513577512ae06214753f48d1\n*** Element info: {Using=xpath, value=//*[@id=\"loginPanel\"]/form/div[1]/input}",
+      "children" : [ {
+        "name" : "Make a new account and find it's number",
+        "uid" : "82600239820cd6bf",
+        "parentUid" : "a36bc0126f5c4d15015d55aec22efdca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628089620810,
+          "stop" : 1628089643029,
+          "duration" : 22219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Try to write out the tablecols names",
+        "uid" : "de07f109be35f55b",
+        "parentUid" : "a36bc0126f5c4d15015d55aec22efdca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628089643033,
+          "stop" : 1628089663267,
+          "duration" : 20234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a36bc0126f5c4d15015d55aec22efdca"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
